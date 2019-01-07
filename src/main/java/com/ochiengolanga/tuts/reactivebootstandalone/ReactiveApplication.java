@@ -6,9 +6,9 @@ import org.springframework.web.reactive.config.EnableWebFlux;
 
 @EnableWebFlux
 @SpringBootApplication
-public class ReactivebootstandaloneApplication {
+public class ReactiveApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReactivebootstandaloneApplication.class, args);
+		SpringApplication.run(ReactiveApplication.class, args);
 	}
 }
